@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.card-sedans {
+    background-color: hsl(31, 77%, 52%);
+    width: 50%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    padding: 10%;
+}
+
+.card-sedans h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card-sedans p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    margin-bottom: 5%;
+}
+
+.card-suv {
+    background-color: hsl(184, 100%, 22%);
+    width: 50%;
+    padding: 10%;
+}
+
+.card-suv h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card-suv p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    margin-bottom: 5%;
+}
+
+.card-luxury {
+    background-color: hsl(179, 100%, 13%);
+    width: 50%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding: 10%;
+}
+
+.card-luxury h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card-luxury p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    margin-bottom: 5%;
+}
+
+.cars {
+    width: 30%;
+}
+
+.bouton1 {
+    display: inline-block;
+    color: hsl(31, 77%, 52%);
+    border: 0;
+    font-size: 10px;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    width: 100px;
+    padding: 10px;
+}
+
+.bouton2 {
+    color: hsl(184, 100%, 22%);
+    border: 0;
+    border-radius: 50px;
+    width: 100px;
+    padding: 10px;
+    font-size: 10px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.bouton3 {
+    color: hsl(179, 100%, 13%);
+    border: 0;
+    border-radius: 50px;
+    width: 100px;
+    padding: 10px;
+    font-size: 10px;
+    background-color: hsl(0, 0%, 95%);
+}
