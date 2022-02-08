@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+/*Début en Mobile Firt*/
+
 main {
     width: 100%;
     height: auto;
@@ -115,4 +118,83 @@ main {
     padding: 10px;
     font-size: 10px;
     background-color: hsl(0, 0%, 95%);
+}
+
+
+/*Fin de la partie pour Mobile*/
+
+
+/*Début de la partie en desktop*/
+
+@media screen and (min-width:1200px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10%;
+        width: 50%;
+        padding: 0;
+        margin-left: 25%;
+    }
+    .card-sedans {
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0px;
+        height: 45vh;
+    }
+    .card-sedans h2 {
+        margin-left: -20%;
+        padding-bottom: 10%;
+    }
+    .card-sedans p {
+        margin-left: -20%;
+        padding-bottom: 10%;
+    }
+    .bouton1 {
+        margin-left: -20%;
+        margin-top: 50%;
+    }
+    .cars {
+        width: 55%;
+        padding-bottom: 10%;
+        margin-top: -200%;
+        margin-left: -50%;
+    }
+    .card-suv {
+        height: 45vh;
+    }
+    .card-suv h2 {
+        margin-left: -20%;
+        padding-bottom: 10%;
+    }
+    .card-suv p {
+        margin-left: -20%;
+        padding-bottom: 10%;
+    }
+    .bouton2 {
+        margin-left: -20%;
+        margin-top: 50%;
+    }
+    .card-luxury {
+        height: 45vh;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0;
+    }
+    .card-luxury h2 {
+        margin-left: -20%;
+        padding-bottom: 10%;
+    }
+    .card-luxury p {
+        margin-left: -20%;
+        padding-bottom: 10%;
+    }
+    .bouton3 {
+        margin-left: -20%;
+        margin-top: 50%;
+    }
+    footer {
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 5vh;
+        bottom: 0;
+    }
 }
